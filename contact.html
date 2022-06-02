@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav class="navContainer">
+    <div class="navBar">
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a class="active" href="#">Contact</a></l1>
+        <li><a href="registration.html">Registration</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="cContainer">
+    <div class="header">
+      <h1>Kindly drop me a message</h1>
+    </div>
+  </header>
+
+  <main class="cForm">
+    <form class="form" action="/contact.php" method="post" autocomplete="on">
+      <div>
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name here" required>
+      </div>
+
+      <div>
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email address" required>
+      </div>
+
+      <div>
+        <label>Message</label>
+        <textarea name="txtArea" placeholder="type your message in here" col="30" rows="10"></textarea>
+      </div>
+
+      <input type="submit" value="Send">
+    </form>
+  </main>
+  
+  <footer>
+    &copy; Michael Onyike. All Rights Reserved.
+  </footer>
+</body>
+
+</html>
